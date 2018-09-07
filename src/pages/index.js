@@ -3,12 +3,13 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <div>
-    <h1>Party people yeah</h1>
-    <p>Welcome to your new Gatsby site. It's the shit.</p>
-    <p>Now go build something great.</p>
-    <p>When you add a github repo, make sure you select https and not ssh. Also to add files that weren't originally staged, use 'git status' and then 'git add .' to add all. If you get fatal 'origin already exists' here are some important commands— 'git remote rm origin' and 'git remote rm upstream'.
-    </p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="Hero">
+      <div className="HeroGroup">
+        <h1>Learn to design and code modern apps</h1>
+        <p>Complete courses about the best tools and design systems. Prototype and build apps with React and Swift.</p>
+        <Link to="/page-2/">Watch the video</Link>
+      </div>   
+    </div>
   </div>
 )
 
